@@ -10,7 +10,7 @@ const links = [{
 }, {
   label: 'Installation',
   icon: 'i-heroicons-home',
-  to: '/getting-started/installation'
+  to: '/'
 },]
 </script>
 

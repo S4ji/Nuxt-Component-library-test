@@ -1,8 +1,16 @@
 <template>
+  <div class="main">
+    <div class="left">
+        <VerticalNav></VerticalNav>
+    </div>
   
-  <SlideOver></SlideOver>
-  <Card></Card>
-  <VerticalNav></VerticalNav>
+    <div class="right">
+      <SlideOver class="toleft"></SlideOver>
+      <Card></Card>
+      <Card></Card>
+      <Card></Card>
+    </div>
+  </div>
 </template>
 
 <script lang="ts" setup>
@@ -11,5 +19,19 @@
 </script>
 
 <style>
+
+.toleft {
+  position: absolute;
+  right: 10px;
+}
+
+.main {
+  display:flex;
+  flex-direction: row;
+}
+
+.left {
+  width:2.5rem;
+}
 
 </style>

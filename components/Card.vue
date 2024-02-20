@@ -1,13 +1,11 @@
 <template>
   <UCard class="body">
     <template #header>
-      Test Header
+      <Avatar></Avatar>
     </template>
-
-    Test Body
-
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, doloremque.</p>
     <template #footer>
-      Test Footer
+      <Button label="Ajouter"></Button><Button label="Bloquer" color="red"></Button>
     </template>
   </UCard>
 </template>
@@ -20,7 +18,7 @@
 
 <style>
 
-.body {
+body {
   width:100%;
 }
 
