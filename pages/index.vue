@@ -7,8 +7,7 @@
     <div class="right">
       <SlideOver class="toleft"></SlideOver>
       <Card></Card>
-      <Card></Card>
-      <Card></Card>
+      <Carroussel></Carroussel>
     </div>
   </div>
 </template>

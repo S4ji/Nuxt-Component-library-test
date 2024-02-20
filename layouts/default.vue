@@ -13,7 +13,7 @@
 
 <style>
 header{
-  background-color: white;
+  background-color: inherit;
   height: 4.7vh;
   position: sticky;
   top:0px;
